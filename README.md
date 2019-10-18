@@ -10,7 +10,7 @@ Simple animated Log In / Sign Up form (validation included) developed by using:
 
 __Screenshot__
 
-![alt text](https://raw.githubusercontent.com/AndreiGolopenta/My-CV/master/assets/img/Screenshot.png)
+![alt text](https://raw.githubusercontent.com/AndreiGolopenta/LogIn-SignUp/master/assets/img/Screenshot.png)
 
 ## Project Dependencies
 `npm install`
