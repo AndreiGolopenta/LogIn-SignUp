@@ -16,8 +16,13 @@ __Screenshot__
 `npm install`
 
 ## Running the project
+Step 1:
 ```cli
 npm start
+```
+Step 2:
+```browser
+http://localhost:4000/
 ```
 
 
