@@ -3,6 +3,7 @@
 ## Description
 Simple animated Log In / Sign Up form (validation included) developed by using:
 * ES2015
+* localStorage
 * Webpack
 * Babel
 * SCSS
