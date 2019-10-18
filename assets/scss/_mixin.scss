@@ -1,0 +1,45 @@
+@mixin icon {
+  left: 284px;
+  padding: 6px;
+  font-size: 26px;
+  border-bottom: 1.5px solid;
+  border-bottom-color: $bg-card;
+  color: $bg-card;
+}
+
+@mixin error {
+  font-size: 12px;
+  margin-left: 10px;
+  color: $error;
+  visibility: hidden;
+}
+
+@mixin inputStyle {
+  border: none;
+  border-bottom: 1.5px solid $bg-card;
+  background: none;
+  outline: none;
+  padding: 10px;
+  width: 215px;
+  font-size: 15px;
+  &:focus {
+    border-bottom: 2px solid;
+    border-bottom-color: $bg-card;
+  }
+}
+
+@mixin button {
+  position: absolute;
+  background: none;
+  border: 1.4px solid $text-color;
+  color: $text-color;
+  border-radius: 6px;
+  padding: 7px 25px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background: $button-hover;
+    animation: buttonAnimate ease-in-out;
+    animation-duration: 0.8s;
+  }
+}
